@@ -14,6 +14,7 @@ class vector {
     {
       extendedArray[i] = this->data[i];
     }
+    delete[] this->data;
     this->data = extendedArray;
   }
 
